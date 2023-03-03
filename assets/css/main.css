@@ -1,0 +1,11 @@
+:root {
+    --main-font: Comic Sans MS;
+}
+
+p {
+    font-family: var(--main-font);
+}
+
+.comic {
+    font-family: var(--main-font);
+}
