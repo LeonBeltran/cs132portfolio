@@ -9,22 +9,56 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <style type="text/css"></style>
 
+        <!-- Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
         <!-- PyScript -->
-        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /> -->
+        <!-- <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
+
+        <!-- md to html -->
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+        <!-- <zero-md src="README.md"></zero-md> -->
+
     </head>
 
     <body>
-        <py-script src="assets/python/main.py"></py-script>
 
-        <header>
-            <div id='intro'></div>
-        </header>
-
-        <div>
-            <p>Hello World!</p>
+        <div class="navbar">
+            <div>Some Amazing Navigation Bar</div>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
         </div>
 
-        <div id="python" class="comic"></div>
+        <div class="topblock">
+            <div class="topblock-header">
+                <p id='grpname' class='text_shadow'>CS132: Group 33</p>
+                <p id='tagline' class='text_shadow'>Stigma Against LGBTQ and STDs</p>
+            </div>
+        </div>
+
+        <div class="content-box" id="problem">
+            <div id="problem-img">
+                <!-- <img src='./assets/images/sample.jpg' width=600 height=750> -->
+            </div>
+
+            <div id="problem-content">
+                <h1>Some Problem</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus efficitur eleifend. Quisque convallis, mauris eu faucibus tincidunt, metus turpis mattis lacus, eget porta nisl dui interdum mauris. In feugiat faucibus sodales. Phasellus et nisl sapien. Fusce fringilla rhoncus nisl vitae molestie. Nam congue lacus eu nisi dictum, non malesuada mi laoreet. Fusce augue ligula, consectetur vitae dapibus ut, lacinia quis lacus. Donec interdum venenatis arcu at scelerisque. Aenean sodales mi nec purus tincidunt aliquam. Maecenas nec suscipit ipsum, sed pellentesque purus. Aenean vestibulum, eros nec suscipit sollicitudin, elit neque vehicula nulla, non cursus mauris ligula sodales quam. Maecenas ut nunc consequat, iaculis turpis sit amet, fermentum velit</p>
+                <p>Cras purus mauris, euismod sit amet vehicula in, fringilla eu sapien. Praesent quis quam bibendum, pellentesque lacus et, commodo enim. Cras id turpis eu mauris tincidunt accumsan sit amet ac est. Curabitur maximus augue vitae lorem lacinia ultricies. Mauris elit nunc, ornare eu dui tempus, finibus ultricies sem. Sed tempus a est eu rhoncus. Curabitur libero magna, ullamcorper a tellus in, tincidunt euismod est. Proin condimentum bibendum tellus. Ut porttitor at quam quis viverra. Maecenas non imperdiet arcu, ut vestibulum sapien. Fusce ut porta erat. Aliquam feugiat, leo at luctus pretium, eros ante dapibus nunc, et imperdiet quam ipsum finibus sem. Proin interdum gravida mattis.</p>
+                <p>Cras purus mauris, euismod sit amet vehicula in, fringilla eu sapien. Praesent quis quam bibendum, pellentesque lacus et, commodo enim. Cras id turpis eu mauris tincidunt accumsan sit amet ac est. Curabitur maximus augue vitae lorem lacinia ultricies. Mauris elit nunc, ornare eu dui tempus, finibus ultricies sem. Sed tempus a est eu rhoncus. Curabitur libero magna, ullamcorper a tellus in, tincidunt euismod est. Proin condimentum bibendum tellus. Ut porttitor at quam quis viverra. Maecenas non imperdiet arcu, ut vestibulum sapien. Fusce ut porta erat. Aliquam feugiat, leo at luctus pretium, eros ante dapibus nunc, et imperdiet quam ipsum finibus sem. Proin interdum gravida mattis.</p>
+            </div>
+        </div>
+
+
+        <!-- <zero-md src="test.md"></zero-md> -->
+
     </body>
+
+    <!-- <py-script src="assets/python/main.py"></py-script> -->
 </html>

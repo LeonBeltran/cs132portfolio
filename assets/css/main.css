@@ -1,11 +1,127 @@
+/* debug stuff */
+
+
 :root {
-    --main-font: Comic Sans MS;
+    --main-font: 'Roboto', 'Arial', sans-serif;
+    --sample-img: url(../images/sample.jpg);
 }
 
-p {
+* {
+    /* box-sizing: border-box; */
+    /* background: rgb(0 100 0/0.1) !important; */
     font-family: var(--main-font);
 }
 
-.comic {
-    font-family: var(--main-font);
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar div {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topblock, .content-box {
+    height: 500px;
+    display: flex;
+}
+
+.topblock {
+    /* background-image: url(https://images.pexels.com/photos/1137511/pexels-photo-1137511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    background: #feeaec;
+    justify-content: center;
+    align-items: center;
+}
+
+.topblock-header {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+#grpname, #tagline {
+    color: black;
+    text-align: center;
+}
+
+#grpname {
+    font-size: 92px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#tagline {
+    font-size: 46px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#problem {
+    padding: 20px;
+    height: auto;
+    /* background: red; */
+}
+
+#problem-img {
+    border-radius: 20px;
+    background-image: var(--sample-img);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 600px; */
+    /* height: 750px; */
+    padding-left: 40%;
+}
+
+#problem-content {
+    /* background:yellow; */
+    /* padding-top: 50px; */
+    padding-left: 50px;
+    margin-left: 50px;
+    padding-right: 20px;
+}
+
+#problem-content > p {
+    text-align: justify;
+    text-justify: inter-word;
 }

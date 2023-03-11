@@ -1,5 +1,5 @@
 # command to get server running
-# python -m http.server 80 
+# python -m http.server 80
 # in root folder
 # then localhost/index.html in a browser
 texts = {
