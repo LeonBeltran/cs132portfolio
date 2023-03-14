@@ -7,6 +7,7 @@
 }
 
 * {
+    /* UNCOMMENT FOR DEBUGGING */
     /* box-sizing: border-box; */
     /* background: rgb(0 100 0/0.1) !important; */
     font-family: var(--main-font);
@@ -21,7 +22,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .navbar {
-    background-color: #333;
+    background-color: #2e303e;
     overflow: hidden;
     margin: 0px !important;
     padding: 0px !important;
@@ -63,10 +64,6 @@ body {
 }
 
 .topblock {
-    /* background-image: url(https://images.pexels.com/photos/1137511/pexels-photo-1137511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
     background: #feeaec;
     justify-content: center;
     align-items: center;
@@ -76,6 +73,13 @@ body {
     background: rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 20px;
+}
+
+.heading {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: var(--main-font);
+    font-size: 48px;
 }
 
 
@@ -99,7 +103,6 @@ body {
 #problem {
     padding: 20px;
     height: auto;
-    /* background: red; */
 }
 
 #problem-img {
@@ -108,9 +111,8 @@ body {
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 600px; */
-    /* height: 750px; */
     padding-left: 40%;
+    min-height: 50em;
 }
 
 #problem-content {
@@ -124,4 +126,5 @@ body {
 #problem-content > p {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 32px;
 }
