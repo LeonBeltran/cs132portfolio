@@ -5,6 +5,10 @@
     - The tweet **mentions** **<u>std, hiv, aids, or monkeypox</u>** along with terms used to refer to Filipino LGBTQ such as **<u>bakla, or bading</u>**
     - The tweet was **posted in 2016-2022**
 - Of the 1025 tweets scraped and manually reviewed by the researchers, **150 tweets** were used as the Sample Data for the Analysis
+    - The scraped tweets were manually reviewed as they only contained the keywords mentioned and were posted on the given timeframe,
+    - it was still unknown if the tweets contined *disinformation.*
+    - The criterion used to determine if the tweet contained disinformation was ***if the tweet propaged the stigma against LGBTQ with regards to Sexually Transmitted Infections/Diseases***
+    - Factors such as the context of the tweet, what tweet was replying to, hidden meanings within the content of the tweet were also used to determine if the tweet contained disinformation
 - The tweets were scraped during **March 27, 2023**, and were manually reviewed during **March 27 - April 19, 2023**
 - Following **Features** of each collected tweet were noted
     - The content of the tweet
