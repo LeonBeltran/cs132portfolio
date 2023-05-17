@@ -56,26 +56,27 @@ Our group's research mainly focused on looking at the language tones of our data
 ## Time Series Analysis
 
 - Part of our action plan was to test if there’s a correlation between the popularity of different STDs/STD keywords and negative stigma towards the LGBTQ community.
-- We collected data from **Google Trends** and compared these in a line graph with the data from our dataset
-- The dates collected in our dataset were **binned** by month and year as the scope of the project was from 2015 - 2022. This was also done to match the collected data from Google Trends which followed a MM/YYYY = trend score format.
+- We collected data from **Google Trends** and compared these using line graphs with the data from our dataset. The data from Google Trends range from 0 to 100 with 100 symbolizing the peak of the term being used.
+- We took the trend data from 2015-2022. Note that we only used 2016-2022 which explained why some graphs did not reach 100. The highest point still symbolizes the period when the term trended most from 2016-2022.
+- The dates collected in our dataset were **binned** by month and year as the scope of the project was from 2016 - 2022. This was also done to match the collected data from Google Trends which followed a MM/YYYY = trend score format.
 - We plotted our dataset together with the Google Trends data to visually observe if there was any correlation to be derived.
 - The following visualizes the trends of our keywords over time in the Philippines (data was collected from Google Trends)
 
-![Line Graph for gay Trend](https://media.discordapp.net/attachments/871627250204831804/1107941617916203028/gaytrend.png)
+![Line Graph for gay Trend](https://media.discordapp.net/attachments/871627250204831804/1108372746817253396/gaytrend2016.png)
 
-![Line Graph for STD Trend](https://media.discordapp.net/attachments/871627250204831804/1107941618578903140/stdtrend.png)
+![Line Graph for STD Trend](https://media.discordapp.net/attachments/871627250204831804/1108372746288771223/stdtrend2016.png)
 
-![Line Graph for HIV Trend](https://media.discordapp.net/attachments/871627250204831804/1107941618180423700/hivtrend.png)
+![Line Graph for HIV Trend](https://media.discordapp.net/attachments/871627250204831804/1108372747089870888/hivtrend2016.png)
 
-![Line Graph for AIDS Trend](https://media.discordapp.net/attachments/871627250204831804/1107941619262562334/aidstrend.png)
+![Line Graph for AIDS Trend](https://media.discordapp.net/attachments/871627250204831804/1108372746557198437/aidstrend2016.png)
+
+- From the trends, we observed that the use of the term gay has steadily gone down since around the start of 2016 when it peaked. A pause in decline was observed between 2019-2020. For the term STD, we observed its trend quickly peak on the 3rd quarter of 2019. On the other hand, the term HIV spiked around the same time the pause in decline for the term gay started with the term HIV's second most trending time around the start of 2020. Lastly, we observed that the trend for the term AIDS continued to fluctuate throughout 2016-2022 with its biggest spikes happening around the 3rd quarter of 2018, 3rd quarter of 2020, and the start of 2022.
 
 - The following shows the number of tweets posted every month/year interval
 
-![Line Graph for Tweets per Month and Year](https://media.discordapp.net/attachments/871627250204831804/1107941619031867522/numtweets.png)
+![Line Graph for Tweets per Month and Year](https://media.discordapp.net/attachments/871627250204831804/1108372746003550259/numtweets2016.png)
 
 - Note that the data used a monthly and yearly interval but the graph only shows the year to keep the cleanliness of the subheadings
-
-- From the trends, we observed that the use of the term gay has steadily gone down since around the start of 2016 when it peaked. A pause in decline was observed between 2019-2020. For the term STD, we observed its trend quickly peak on the 3rd quarter of 2019. On the other hand, the term HIV spiked around the same time the pause in decline for the term gay started with the term HIV's second most trending time around the start of 2020. Lastly, we observed that the trend for the term AIDS continued to fluctuate throughout 2015-2022 with its biggest spikes happening around the 3rd quarter of 2018, 3rd quarter of 2020, and the start of 2022.
 - When it came to the number of tweets posted per month and year, we observed that majority of our tweets were posted between the start of 2019 and the end of 2022. Our most noticeable spikes occured in the middle of 2022 and at the 1st quarter of 2020.
 
 ## Observations
