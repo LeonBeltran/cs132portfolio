@@ -89,9 +89,3 @@ Our group's research mainly focused on looking at the language tones of our data
 
 1. [https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
 2. [https://www.psychologicalscience.org/observer/the-science-of-swearing](https://www.psychologicalscience.org/observer/the-science-of-swearing)
-
-### Collab Notebooks used
-
-[Data Exploration](https://colab.research.google.com/drive/19pGB71AHv8-7gBp2RJ1NhKs6vE-pJhrW#scrollTo=JaJ91Q1Wf7Fo)
-
-[Time Series Analysis](https://colab.research.google.com/drive/14_Jc2Fcpidno5mHhELF2SDq6NK_DgzOi?usp=sharing)
