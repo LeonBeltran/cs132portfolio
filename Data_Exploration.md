@@ -48,6 +48,11 @@ Our group's research mainly focused on looking at the language tones of our data
 - We observed that majority of the tweets show an average amount of aggression towards the LGBTQ community.
 - We also observed that a small spike occurred at the top end of the aggression score showing that there was a small amount of entries that were severely aggressive towards the LGBTQ community.
 
+
+- Some limitations in the aggression score formula
+  - An index was created in order to better regulate the variance between capital letters in tweets. It may be possible that a tweet was simply capitalizing a letter for grammatical or acronym reasons and wrote a short tweet which may have inflated their aggression score.
+  - The use of terms related to STDs were also counted toward aggression.
+
 ## Time Series Analysis
 
 - Part of our action plan was to test if there’s a correlation between the popularity of different STDs/STD keywords and negative stigma towards the LGBTQ community.
@@ -84,3 +89,9 @@ Our group's research mainly focused on looking at the language tones of our data
 
 1. [https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
 2. [https://www.psychologicalscience.org/observer/the-science-of-swearing](https://www.psychologicalscience.org/observer/the-science-of-swearing)
+
+### Collab Notebooks used
+
+[Data Exploration](https://colab.research.google.com/drive/19pGB71AHv8-7gBp2RJ1NhKs6vE-pJhrW#scrollTo=JaJ91Q1Wf7Fo)
+
+[Time Series Analysis](https://colab.research.google.com/drive/14_Jc2Fcpidno5mHhELF2SDq6NK_DgzOi?usp=sharing)
