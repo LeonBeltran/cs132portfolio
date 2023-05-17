@@ -32,16 +32,14 @@ Our group's research mainly focused on looking at the language tones of our data
 - In order to measure this, we came up with variable, Aggression Score
 - This was used to standardize our data and numerically describe each tweet's aggression.
 - The two main factors to the aggression score is the ***percentage of capital letters*** in tweet and the ***number of swear words*** in tweet
-  - Capital letters are often used when a person wants to express that they are shouting in text.   [Source](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
-  - Swear words are often used as aggressive language due to their meanings and perception. [Source](https://www.psychologicalscience.org/observer/the-science-of-swearing)
+  - Capital letters are often used when a person wants to express that they are shouting in text.   [Source 1](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
+  - Swear words are often used as aggressive language due to their meanings and perception. [Source 2](https://www.psychologicalscience.org/observer/the-science-of-swearing)
   - While there are other factors to consider such as the nuances of the language used, since the data was translated from Filipino to English, some of the nuances may have been lost in translation. We also determined that the factors we considered were enough to give a rough perspective on the aggression portrayed by a tweet.
   - It should be noted that the data collected was already "aggressive in nature."
 - The following is our formula in calculating the aggression score
-  - Aggression Score = # of swear words + cap % index
-    - cap % index = (0 if % of capital letters in tweet < 0.1, 1 if 0.1 <= % of capital letters < 0.3, 2 if % 0.3 <= % of capital letters < 0.6, and 3 if % of capital letters >= 0.6)
-    - cap % index is a variable that adds a value of 0, 1, 2 or 3 depending on the % of capital letters in the tweet. to the tweet aggression score
-    - An index was created in order to better regulate the variance between capital letters in tweets. It may be possible that a tweet was simply capitalizing a letter for grammatical or acronym reasons and wrote a short tweet which may have inflated their aggression score.
-    - The use of terms related to STDs were also counted toward aggression.
+
+![Aggression Score Formula](https://media.discordapp.net/attachments/871627250204831804/1108332640492322877/image.png)
+
 - The following **histogram** shows the distribution of our dataset:
 
 ![Histogram for Aggrerssion Scores in Collected Data](https://cdn.discordapp.com/attachments/871627250204831804/1107911132599046204/histogram.png)
@@ -79,3 +77,10 @@ Our group's research mainly focused on looking at the language tones of our data
 
 - We deduced that the period between 2019-2020 was the likeliest time the negative stigma toward the LGBTQ community peaked with spikes for the terms STD and HIV and notable trends for the terms AIDS and gay happening at that time period. It also encompasses a significant amount of tweets we collected from our data.
 - The period between 2019-2020 was when COVID-19 started.
+
+
+
+## Sources
+
+1. [https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
+2. [https://www.psychologicalscience.org/observer/the-science-of-swearing](https://www.psychologicalscience.org/observer/the-science-of-swearing)
