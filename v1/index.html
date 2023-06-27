@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>PH Twitter Fake News Analysis</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- Font Icon Imports -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style type="text/css"></style>
+
+        <!-- Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- PyScript -->
+        <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /> -->
+        <!-- <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
+
+        <!-- md to html -->
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+        <!-- <zero-md src="README.md"></zero-md> -->
+
+    </head>
+
+    <body>
+
+        <div class="navbar">
+            <div>CS132 Group 33</div>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+
+        <div class="topblock">
+            <div class="topblock-header">
+                <p id='grpname' class='text_shadow'>CS132: Group 33</p>
+                <p id='tagline' class='text_shadow'>Stigma Against LGBTQ and STDs</p>
+            </div>
+        </div>
+
+        <div class="content-box" id="problem">
+            <div id="problem-img">
+                <!-- <img src='./assets/images/sample.jpg' width=600 height=750> -->
+            </div>
+
+            <div id="problem-content">
+                <span class='heading'>Problem</span>
+                <p><b>Research question:</b> Have sexually transmitted diseases (STDs) such as HIV or AIDS, or diseases commonly attributed to STDs like monkeypox, caused an increased negative stigma on the LGBTQ+ community?</p>
+                <p><b>Hypothesis:</b> The diseases have caused an increase in the negative stigma against the LGBTQ+ community.</p>
+                <p><b>Null Hypothesis:</b> The diseases have not caused an increase in the negative stigma against the LGBTQ+ community.</p>
+                <p><b>Action Plan:</b> Analyze the use and tone of language in tweets spreading mis/disinformation about the LGBTQ+ community regarding STDs or diseases attributed to STDs.</p>
+            </div>
+        </div>
+
+        <div style="padding:25px 25px 75px">
+            <zero-md src="Data_Collection.md"></zero-md>
+        </div>
+
+        <div style="padding:25px 25px 75px">
+            <zero-md src="Data_Exploration.md"></zero-md>
+        </div>
+
+    </body>
+
+    <!-- <py-script src="assets/python/main.py"></py-script> -->
+</html>

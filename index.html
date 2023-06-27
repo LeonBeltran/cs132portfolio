@@ -1,70 +1,327 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>PH Twitter Fake News Analysis</title>
-        <link rel="stylesheet" href="assets/css/main.css">
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
 
-        <!-- Font Icon Imports -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <style type="text/css"></style>
+<title>The Stigma Against LGBTQ</title> 
+</head>
 
-        <!-- Roboto -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div class='container'>
 
-        <!-- PyScript -->
-        <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /> -->
-        <!-- <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
+            <a href="index.html"><img src="assets/logo2.png" alt="logo" class='logo'></a>
 
-        <!-- md to html -->
-        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-        <!-- <zero-md src="README.md"></zero-md> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html#overview">Overview</a></li>
+                    <li><a href="method.html">Methodology</a></li>
+                    <li><a href="index.html#results">Results</a></li>
+                    <li><a href="index.html#conclusion">Conclusion</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    </head>
+    <div id='overview'></div>
+    <div class='overview'>
 
-    <body>
+        <div class='overview-prob'>
+            <h1>The <span style='color:#b84952;'>Stigma</span></h1>
+            <h1> <span style="display: inline-block; width: 2ch;">&#9;</span>Against <span style='color:#ac76a8;'>LGBTQ</span></h1>
+            <p style="text-align: justify; text-indent: 10%;">
+            STDs have a negative stigma surrounding the LGBTQ+ community, in which social media equates being gay to contracting STDs. This negative stigma can go as far as using STDs as a derogatory term against the community and using the community as a scapegoat for the STDs. Upon further research, there is also a noticeable increase in this aggression against the community during and after an STD outbreak. So, this study aims to observe the trend and severity of this mindset on Twitter over a period of time.
+            </p>
 
-        <div class="navbar">
-            <div>CS132 Group 33</div>
-            <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
         </div>
 
-        <div class="topblock">
-            <div class="topblock-header">
-                <p id='grpname' class='text_shadow'>CS132: Group 33</p>
-                <p id='tagline' class='text_shadow'>Stigma Against LGBTQ and STDs</p>
+        <div class='stigma-container'>
+            <img src="assets/stigma.jpg" alt="stigma" class='stigma-img'>
+        </div>
+        
+        <div id='action-plan'></div>
+    </div>
+
+
+
+    <div class='action-plan'>
+        <div class='action-plan-title'>
+            <h2>The Plan</h2>
+        </div>
+
+        <div class='box'>
+
+            <div class='card'>
+                <h5>Problem</h5>
+                
+                <div class='pra'>
+                    <p>Have sexually transmitted diseases (STDs) such as HIV or AIDS, or diseases commonly attributed to STDs like monkeypox, caused an increased negative stigma on the LGBTQ+ community?</p>
+                </div>
+            </div>
+
+
+            <div class='card'>
+                <h5>Null Hypothesis \(H_0\)</h5>
+                
+                <div class='pra'>
+                    <p>The diseases have caused an increase in the negative stigma against the LGBTQ+ community.</p>
+                </div>
+            </div>
+
+
+            <div class='card'>
+                <h5>Alt Hypothesis \(H_A\)</h5>
+                
+                <div class='pra'>
+                    <p>The diseases have caused an increase in the negative stigma against the LGBTQ+ community.</p>
+                </div>
+            </div>
+
+
+
+            <div class='card'>
+                <h5>Action Plan</h5>
+                
+                <div class='pra'>
+                    <p>Analyze the use and tone of language in tweets spreading mis/disinformation about the LGBTQ+ community regarding STDs or diseases attributed to STDs.</p>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <p style='text-align: center;'>
+            <a href="#action-plan" class='button'>Read Our Methodology</a>
+        </p>
+
+        <div id='results'></div>
+    </div>
+
+
+    <div class='results' >
+        <div class='title'>
+            <h2>The Results</h2>
+        </div>
+
+        <div class='result-content'>
+            <div class='result-name'>
+                <h3>Statistical Test</h3>
+            </div>
+            
+            <div class='result-box'>
+
+
+                <div id='imgs'>
+                        <img src="https://media.discordapp.net/attachments/871627250204831804/1122865899704176640/Pz4uPBtkEjOFIJTZhIREZFM8U8RIiIiki0WMkRERCRbLGSIiIhItljIEBERkWyxkCEiIiLZYiFDREREssVChoiIiGSLhQwRERHJFgsZIiIiki0WMkRERCRbLGSIiIhItljIEBERkWz9P40kwntoWgiAAAAAElFTkSuQmCC.png" alt="lingress">
+                        <img src="https://media.discordapp.net/attachments/871627250204831804/1122865900014542908/369cOCBQuKPFetWrUqsFIiqgoYpohI9Vq1aoWNGzeiQYMGcHDg2x4RmRfPmSIi1ZswYQKSk5MxfPhwHDlyBBcvXsTu3bsxevRoaLVaS5dHRDaOYYqIVK927do4ePAgtFotevTogdDQUEyePBnVq1eHnR3fBolIGY1waGEiIiKicuOfZEREREQKMEwRERERKcAwRURERKQAwxQRERGRAgxTRERERAowTBEREREpwDBFREREpADDFBEREZECDFNERERECjBMERERESnAMEVERESkwP8BHCgV1gKcb9UAAAAASUVORK5CYII.png" alt="lingress2">
+                </div>
+
+                <!-- <div class='spacer'> </div> -->
+
+                <div class='pra'>
+                    <h4>Linear Regression</h4>
+                    <ul>
+                        <li>Pre-Monkeypox Period had a slope of \(0.0004\)</li>
+                        <li>Post-Monkeypox Period had a slope of \(0.0028\)</li>
+                        <li class='point'>This suggests that as time goes on, tweets in Post-Monkeypox era grow <b>more aggressive</b> than in Pre-Monkeypox era</li>
+                    </ul>
+
+                    <h4>T-test</h4>
+                    <ul>
+                        <li>with a confidence level of \(95\%\) (\(\alpha = 0.05\))</li>
+                        <li>\(H_0\) was rejected (\(p = 3.20\times10^{-14} < \alpha \))</li>
+                        <li class='point'>This suggests that there is a <b>statistical significance</b> between the time periods and tweet aggressiveness</li>
+                    </ul>
+                </div>
+
+                <div class='spacer'> </div>
+
+            </div>
+        </div> 
+
+        <div class='result-content'>
+            <div class='result-name'>
+                <h3>Peak Finding</h3>
+            </div>
+            
+            <div class='result-box'>
+
+
+                <div id='imgs'>
+                    <img src="https://media.discordapp.net/attachments/871627250204831804/1123118599016554549/newplot_1.png" alt="stat-test" style='width:800px;height:auto;'>
+                    <img src="https://media.discordapp.net/attachments/871627250204831804/1123118599259816007/newplot.png" alt="stat-test" style='width:800px;height:auto;'>
+                </div>
+
+                <!-- <div class='spacer'> </div> -->
+
+                <div class='pra'>
+                    <!-- <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p> -->
+                    <h4>Peak Finding Parameters</h4>
+                    <ul>
+                        <li>Peak value considered if value is at least \(75\%\) of the max value in the graph</li>
+                        <li>\(1\) peak was taken per year</li>
+                    </ul>
+
+                    <h4>Findings</h4>
+                    <ul>
+                        <li>A <b>common peak</b> was found between monkeypox and the Twitter mis/disinformation <b>on July 2022</b> which is around the time of the monkeypox global outbreak</li>  
+                        <li>The term <b>STD also shared this peak</b> and AIDS had a peak 2 months later, September 2022</li>
+                        <li>These findings suggest that the <b>spread of mis/disinformation was possibly affected by the monkeypox outbreak.</b></li>
+                    </ul>
+
+                </div>
+                <div class='spacer'> </div>
+
+            </div>
+        </div> 
+        
+        <p style='text-align: center;'>
+            <a href="#action-plan" class='button'>Read More</a>
+        </p>
+
+
+        <div id='conclusion'></div>
+    </div>
+
+
+
+
+    <div class='conclusion' >
+        <h2 style='text-align: center;'>To Conclude</h2>
+
+        <div class='box'>
+
+            <div class='card'>
+                <h5>Conclusion</h5>
+                
+                <div class='pra'>
+                    <p> The research was able to determine more aggression in posts after the boom of monkeypox during July 2022. We also found common peaks between the Google trend of the term monkeypox and LGBTQ+ mis/disinformation posts around the same time period. With these findings, we concluded that the monkeypox boom had a decent possibility of significantly affecting mis/disinformation on social media. </p>
+                </div>
+            </div>
+
+            <div class='spacer'> </div>
+
+            <div class='card'>
+                <h5>Recommendations</h5>
+                
+                <div class='pra'>
+                    <ul style='text-align: left;'>
+                        <li>Use a larger sample size to get a more accurate result for the statistical tests.</li>
+                        <li>Get a more equal distribution between tweets before and after the monkeypox period to get a less biased result</li>
+                        <li>Look at other social media sights like Facebook to see if result carry across platforms.</li>
+                        <li>Make use of a better measure of aggressiveness</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div class="content-box" id="problem">
-            <div id="problem-img">
-                <!-- <img src='./assets/images/sample.jpg' width=600 height=750> -->
+
+
+        <div id='about-us'></div>
+    </div>
+
+    <div class='about-us' >
+
+        <div class='title'>
+            <h2 style='text-align: center; padding-top:40px;'>About Us</h2>
+        </div>
+
+        <div class='about-us-team'>
+            <h4>The Team</h4>
+            <img src="./assets/logo2.png" alt="">
+            <div class='pra'>
+                We are team <b>Truth Beats Fake</b>, a group of students from UP Diliman that look to spread truths about common mis/disinformation being spread around social media. Utilizing Data Science, we aim to study and present evidences against these common sources of mis/disinformation.
             </div>
+            
+        </div>
 
-            <div id="problem-content">
-                <span class='heading'>Problem</span>
-                <p><b>Research question:</b> Have sexually transmitted diseases (STDs) such as HIV or AIDS, or diseases commonly attributed to STDs like monkeypox, caused an increased negative stigma on the LGBTQ+ community?</p>
-                <p><b>Hypothesis:</b> The diseases have caused an increase in the negative stigma against the LGBTQ+ community.</p>
-                <p><b>Null Hypothesis:</b> The diseases have not caused an increase in the negative stigma against the LGBTQ+ community.</p>
-                <p><b>Action Plan:</b> Analyze the use and tone of language in tweets spreading mis/disinformation about the LGBTQ+ community regarding STDs or diseases attributed to STDs.</p>
+        <div class='about-us-indiv'>
+            
+            <div class='box'>
+
+
+                <div class='card' style='box-shadow: 10px 10px #ff8bd2;'>
+                    <h5>Emmanuel Beltran II</h5>
+
+                    <div class='pra'>
+                        <ul>
+                            <li> Email: enbeltran@up.edu.ph</li>
+                            <li> Phone: 09178865004</li>
+                            <li> Section: CS 132 WFU under Sir Paul Regonia</li>
+                            <li> Interests: Video Games, Anime/Manga, Cars, and Badminton</li>
+                            <li> Skills: Badminton, Solving a Rubik's Cube</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class='card' style='box-shadow: 10px 10px #5ce1e6;'>
+                    <h5>Vincent Marcel Santos</h5>
+
+                    <div class='pra'>
+                        <ul>
+                            <li> Email: vcsantos4@up.edu.ph</li>
+                            <li> Phone: 09151193464</li>
+                            <li> Section: CS 132 WFU under Sir Paul Regonia</li>
+                            <li> Interests: Researching about various topics, Developing Apps & Games, Logic Puzzles, Biking</li>
+                            <li> Skills: Cooking, Speaking different languages</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class='card' style='box-shadow: 10px 10px #ffde59;'>
+                    <h5>Anton Gosiengfiao</h5>
+
+                    <div class='pra'>
+                        <ul>
+                            <li> Email: angosiengfiao@up.edu.ph</li>
+                            <li> Phone: 09175220005</li>
+                            <li> Section: CS 132 WFX under Sir Paul Regonia</li>
+                            <li> Interests: Video Games, Anime/Manga, Music, and Working Out</li>
+                            <li> Skills: Football</li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
 
-        <div style="padding:25px 25px 75px">
-            <zero-md src="Data_Collection.md"></zero-md>
+        <div class='contact-us'>
+            <h2 style='padding-top:40px; padding-bottom: 10px;'>Contact Us</h2>
+
+            <form class='frm'>
+                <p>
+                <label><input type="text" placeholder='Enter Your Name'/></label>
+                </p>
+
+                <p>
+                <label><input type="text" placeholder='Enter Your Email'/></label>
+                </p>
+
+                <p>
+                <label><textarea id="subject" name="subject" placeholder="Enter Your Question" style=""></textarea></label>
+                </p>
+
+                <p style='text-align: center;'>
+                <a href="#" class='button' id='submit'>Submit</a>
+                </p>
+            </form>
         </div>
+        
+    </div>
 
-        <div style="padding:25px 25px 75px">
-            <zero-md src="Data_Exploration.md"></zero-md>
-        </div>
 
-    </body>
-
-    <!-- <py-script src="assets/python/main.py"></py-script> -->
+</body>
+    
 </html>
