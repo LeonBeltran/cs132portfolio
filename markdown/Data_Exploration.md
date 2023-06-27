@@ -32,10 +32,11 @@ Our group's research mainly focused on looking at the language tones of our data
 - Another aspect of the stigma we explored to observe the negative stigma towards the LGBTQ community was the aggression tweets had.
 - In order to measure this, we came up with variable, Aggression Score
 - This was used to standardize our data and numerically describe each tweet's aggression.
-- The two main factors to the aggression score is the ***percentage of capital letters*** in tweet and the ***number of swear words*** in tweet
+- The two main factors to the aggression score is the ***percentage of all-capital letters*** in tweet and the ***number of swear words*** in tweet
   - Capital letters are often used when a person wants to express that they are shouting in text.   [Source 1](https://grammar.yourdictionary.com/punctuation/why-are-you-yelling-how-all-caps-make-you-loud)
   - Swear words are often used as aggressive language due to their meanings and perception. [Source 2](https://www.psychologicalscience.org/observer/the-science-of-swearing)
   - While there are other factors to consider such as the nuances of the language used, since the data was translated from Filipino to English, some of the nuances may have been lost in translation. We also determined that the factors we considered were enough to give a rough perspective on the aggression portrayed by a tweet.
   - It should be noted that the data collected was already "aggressive in nature."
 - The following is our formula in calculating the aggression score
 
+<br/>
