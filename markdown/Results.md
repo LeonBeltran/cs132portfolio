@@ -38,7 +38,7 @@ Graph of Post-Monkeypox Period
 
 Graph of Google Trends
 
-![Peaks Search](https://media.discordapp.net/attachments/871627250204831804/1123118599016554549/newplot_1.png)
+![Peaks Search](https://media.discordapp.net/attachments/871627250204831804/1123188307992530984/newplot_1.png)
 
 
 <br/>
